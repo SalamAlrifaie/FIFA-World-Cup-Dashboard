@@ -51,7 +51,7 @@ wins_df = pd.merge(wins_df, coordinates_df, on=['Country', 'ISO'])
 df.to_csv("world_cup_data.csv", index=False)
 wins_df.to_csv("world_cup_wins.csv", index=False)
 
-data_df = pd.read_csv('world_cup_finals.csv')
+data_df = pd.read_csv('world_cup_data.csv')
 wins_df = pd.read_csv('world_cup_wins.csv')
 
 data_df['Year'] = data_df['Year'].astype(int)
