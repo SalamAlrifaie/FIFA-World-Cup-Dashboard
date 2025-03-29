@@ -1,5 +1,6 @@
-dash==2.6.0
+dash>=2.0.0
 pandas
 plotly
-dash-bootstrap-components
+dash-bootstrap-components>=1.0.0
 gunicorn
+flask<3.0.0
