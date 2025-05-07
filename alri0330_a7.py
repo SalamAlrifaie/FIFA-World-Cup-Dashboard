@@ -1,5 +1,3 @@
-# link to published dashboard: 
-
 import pandas as pd 
 from dash import dash, html, dcc, callback, Output, Input
 import dash_bootstrap_components as dbc
